@@ -5,7 +5,7 @@
 
 export const galleryImages = {
     gallery1: '/assets/images/poster.jpg',
-    gallery2: '/assets/images/group.jpg',
+    gallery2: '/assets/images/group-photo.jpg', // corrected
     gallery3: '/assets/images/girls-promo.jpg',
     gallery4: '/assets/images/skull-girl.jpg',
     gallery5: '/assets/images/rooftop.jpg',

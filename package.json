@@ -1,7 +1,8 @@
 {
-  "name": "sabor_002",
+  "name": "sabor_oct25th",
+  "version": "0.1.0",
   "private": true,
-  "version": "0.0.0",
+  "homepage": "https://crawfordseven1-stack.github.io/sabor_oct25th/",
   "type": "module",
   "scripts": {
     "dev": "vite",
