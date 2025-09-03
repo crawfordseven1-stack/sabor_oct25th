@@ -1,21 +1,21 @@
 // This file contains paths to images used throughout the site.
-// To add your actual images, replace the placeholder files in the
-// public/assets/images directory with your own image files.
-// Ensure the file names match what's listed here, or update the paths below.
+
+// Import the base URL from Vite's environment variables.
+const BASE_URL = import.meta.env.BASE_URL;
 
 export const galleryImages = {
-    gallery1: '/assets/images/poster.jpg',
-    gallery2: '/assets/images/group-photo.jpg', // corrected
-    gallery3: '/assets/images/girls-promo.jpg',
-    gallery4: '/assets/images/skull-girl.jpg',
-    gallery5: '/assets/images/rooftop.jpg',
-    gallery6: '/assets/images/promotionalfly.jpg',
-    gallery7: '/assets/images/party.jpg',
+    gallery1: `${BASE_URL}assets/images/poster.jpg`,
+    gallery2: `${BASE_URL}assets/images/group-photo.jpg`,
+    gallery3: `${BASE_URL}assets/images/girls-promo.jpg`,
+    gallery4: `${BASE_URL}assets/images/skull-girl.jpg`,
+    gallery5: `${BASE_URL}assets/images/rooftop.jpg`,
+    gallery6: `${BASE_URL}assets/images/promotionalfly.jpg`,
+    gallery7: `${BASE_URL}assets/images/party.jpg`,
 };
 
 export const artistImages = {
-    cumbiaBrava: '/assets/images/cumbia-brava.jpg',
-    djFarley: '/assets/images/dj-farley.jpg',
-    djRags: '/assets/images/dj-rags.jpg',
-    djArgenis: '/assets/images/dj-argenis.jpg',
+    cumbiaBrava: `${BASE_URL}assets/images/cumbia-brava.jpg`,
+    djFarley: `${BASE_URL}assets/images/dj-farley.jpg`,
+    djRags: `${BASE_URL}assets/images/dj-rags.jpg`,
+    djArgenis: `${BASE_URL}assets/images/dj-argenis.jpg`,
 };

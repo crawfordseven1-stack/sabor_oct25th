@@ -71,3 +71,12 @@ export interface PageData {
   ctaSection: CtaSectionData;
   socialMedia: SocialMediaLink[];
 }
+
+// TypeScript declaration for Vite environment variables
+interface ImportMetaEnv {
+  readonly BASE_URL: string;
+}
+
+interface ImportMeta {
+  readonly env: ImportMetaEnv;
+}
